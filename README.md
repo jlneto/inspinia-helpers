@@ -1,8 +1,9 @@
 # Inspinia-helpers
-Tools to use the Inspinia Theme
+Tools to use the Inspinia Theme with a Rails App
+https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 
 ## simple_navigation Renderer 
-
+https://github.com/codeplant/simple-navigation
 
 1. Create a folder in _app/navigation_renderers_
 2. Create your renderer and put it in there (e.g. _my_custom_renderer.rb_)
@@ -10,7 +11,8 @@ Tools to use the Inspinia Theme
 4. Tell simple-navigation about your renderer in an initializer file, like _config/initializers/simple_navigation.rb_:
 
 ``` ruby
-SimpleNavigation.register_renderer my_renderer: MyCustomRenderer
+SimpleNavigation.register_renderer inspinia: Inspinia
+SimpleNavigation.register_renderer inspinia_breadcrumb: InspiniaBreadcrumb
 ```
 
 Then you can use the renderer in the render_navigation call:

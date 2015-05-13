@@ -1,2 +1,2 @@
-SimpleNavigation.register_renderer inspinia: SimpleNavigation::Renderer::Inspinia
-SimpleNavigation.register_renderer inspinia_breadcrumb: SimpleNavigation::Renderer::InspiniaBreadcrumb
+SimpleNavigation.register_renderer inspinia: Inspinia
+SimpleNavigation.register_renderer inspinia_breadcrumb: InspiniaBreadcrumb
