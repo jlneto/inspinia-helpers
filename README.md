@@ -1,8 +1,9 @@
 # Inspinia-helpers
 Tools to use the Inspinia Theme with a Rails App
+
 https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 
-## simple_navigation Renderer 
+## simple-navigation Renderer 
 https://github.com/codeplant/simple-navigation
 
 1. Create a folder in _app/navigation_renderers_
@@ -28,4 +29,7 @@ Or you can also use it without registering, just specify your class:
 ```
 
 ## Helpers
-based on the bootstrap helpers project http://fullscreen.github.io/bh/#overview
+based on the bootstrap helpers project 
+
+http://fullscreen.github.io/bh/#overview
+
